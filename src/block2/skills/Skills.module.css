@@ -17,3 +17,14 @@
     height: 30%;
 
 }
+
+@media (max-width: 750px) {
+    .skill__item {
+        width: 100%;
+    }
+
+    .skill__title {
+        height: 50%;
+    }
+
+}

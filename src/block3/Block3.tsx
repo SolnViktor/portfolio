@@ -9,7 +9,9 @@ let Block3 = () => {
         <div className={styles.block3}>
             <div className={styles.container}>
                 <div className={styles.content}>
-                    <div className={styles.skills}><h2>Мои проекты</h2></div>
+                    <div className={styles.skills}>
+                        <h2>Мои проекты</h2>
+                    </div>
                     <div className={styles.skills__all}>
                         <Project />
                         <Project />

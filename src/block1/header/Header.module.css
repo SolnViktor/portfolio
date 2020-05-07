@@ -4,9 +4,11 @@
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1230px;
     margin: 0 auto;
     height: 100%;
+    padding: 0 15px;
+
 }
 
 .content {
@@ -15,3 +17,10 @@
     justify-content: flex-end;
     align-items: center;
 }
+
+@media (max-width: 980px) {
+    .content {
+        justify-content: center;
+    }
+}
+
