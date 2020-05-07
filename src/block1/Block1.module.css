@@ -1,0 +1,28 @@
+.block1 {
+    height: 100vh;
+}
+
+.main {
+    background: wheat;
+    height: 90%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.content {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img img{
+    display: block;
+    max-width: 250px;
+    max-height: 300px;
+    border-radius: 15px;
+}

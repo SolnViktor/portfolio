@@ -1,0 +1,19 @@
+
+.skill__item {
+    height: 300px;
+    width: 25%;
+    text-align: center;
+}
+
+.skill__title {
+    height: 70%;
+}
+
+.skill__title img {
+    height: 70px;
+}
+
+.skill__about {
+    height: 30%;
+
+}

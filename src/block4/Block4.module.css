@@ -1,0 +1,31 @@
+.block4 {
+    background-color: bisque;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.content {
+    padding: 50px 0;
+    width: 100%;
+    text-align: center;
+}
+
+.link {
+    padding-top: 50px;
+}
+
+.link a {
+    padding: 10px 30px;
+    text-decoration: none;
+    color: white;
+    background-color: saddlebrown;
+}
+
+.link a:hover {
+    color: black;
+    background: darkseagreen;
+    transition: 0.3s;
+}

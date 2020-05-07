@@ -1,26 +1,27 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Block1 from "./block1/Block1";
+import Block2 from "./block2/Block2";
+import Block3 from "./block3/Block3";
+import Block4 from "./block4/Block4";
+import Block5 from "./block5/Block5";
+import Footer from "./footer/Footer";
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+
+            <Block1 />
+            <Block2 />
+            <Block3 />
+            <Block4 />
+            <Block5 />
+            <Footer />
+
+
+        </div>
+    );
 }
 
 export default App;

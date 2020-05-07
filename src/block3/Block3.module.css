@@ -1,0 +1,27 @@
+.block3 {
+    background: darksalmon;
+    height: 100vh;
+}
+
+.container {
+    height: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.content {
+width: 100%;
+}
+
+.skills {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.skills__all {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

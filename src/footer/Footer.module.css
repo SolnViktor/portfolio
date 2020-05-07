@@ -1,0 +1,35 @@
+.footer {
+    background-color: darkseagreen;
+    padding: 50px 0 10px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.container h2 {
+    text-align: center;
+}
+
+.contacts {
+ width: 70%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.link a img{
+    height: 75px;
+    width: 75px;
+    display: block;
+}
+
+.link a img:hover {
+    transform: translate3d(-10px, -10px, 0);
+    transition: 0.3s;
+}
+
+.copyright {
+    text-align: center;
+    margin: 30px;
+}
