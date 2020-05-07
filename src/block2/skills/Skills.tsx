@@ -13,10 +13,10 @@ let Skills = () => {
                         alt=""/>
                     <h3>React</h3>
                 </div>
-                <div className={styles.skill__about}>Подробное описание навыка  </div>
+                <div className={styles.skill__about}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, voluptates!</div>
             </div>
 
     )
-};
+}
 
 export default Skills;
