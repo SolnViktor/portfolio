@@ -34,3 +34,12 @@
     text-align: center;
     margin: 30px;
 }
+
+@media (max-width: 500px) {
+    .link a img{
+        height: 50px;
+        width: 50px;
+        display: block;
+    }
+
+}
