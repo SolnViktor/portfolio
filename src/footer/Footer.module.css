@@ -1,6 +1,6 @@
 .footer {
-    background-color: darkseagreen;
-    padding: 50px 0 10px 0;
+    background: url(../accets/debut-dark.png);
+    padding: 10px 0 10px 0;
 }
 
 .container {
@@ -8,35 +8,57 @@
     margin: 0 auto;
     padding: 0 15px;
 }
+
 .container h2 {
     text-align: center;
 }
+.tel, .mail {
+    text-align: center;
+}
+.tel__inner, .email__inner {
+    cursor: pointer;
+
+    border-color: #dad054;
+}
+
+.tel__inner:hover,
+.email__inner:hover {
+    border-bottom: 3px solid #dad054;
+}
 
 .contacts {
- width: 70%;
+    width: 70%;
     margin: 50px auto;
     display: flex;
     justify-content: space-between;
 }
 
-.link a img{
-    height: 75px;
-    width: 75px;
+
+.link a {
     display: block;
+    border: 1px transparent;
+    border-radius: 10px;
 }
 
-.link a img:hover {
-    transform: translate3d(-10px, -10px, 0);
-    transition: 0.3s;
+.icon {
+    transition: 0.5s;
+    font-size: 50px;
+    opacity: 1;
+    color: #dad054;
 }
 
+.icon:hover {
+    transform: translate3d(-7px, -7px, 0);
+    background: linear-gradient(to right, #4955e4, #b964dc);
+    color: blanchedalmond;
+}
 .copyright {
     text-align: center;
     margin: 30px;
 }
 
 @media (max-width: 500px) {
-    .link a img{
+    .link a img {
         height: 50px;
         width: 50px;
         display: block;
