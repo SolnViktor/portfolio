@@ -12,18 +12,12 @@ function App() {
     return (
 
         <div className="App">
-
             <Title />
             <MySkills />
             <MyProjects />
             <Contacts />
             <Footer />
-
-
-
-
         </div>
-
     );
 }
 

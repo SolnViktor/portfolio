@@ -1,0 +1,82 @@
+@import '../common/styles/variables';
+.footer {
+  background: url(../accets/debut-dark.png);
+  padding: 10px 0 10px 0;
+
+  .container {
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+    & h2 {
+      text-align: center;
+    }
+
+    .tel {
+      text-align: center;
+
+      &_inner {
+        cursor: pointer;
+        border-color: $itemsColor;
+
+        &:hover {
+          border-bottom: 3px solid $itemsColor;
+        }
+      }
+
+    }
+
+    .mail {
+      text-align: center;
+
+      &_inner {
+        cursor: pointer;
+        border-color: $itemsColor;
+
+        &:hover {
+          border-bottom: 3px solid $itemsColor;
+        }
+      }
+    }
+
+    .contacts {
+      width: 70%;
+      margin: 50px auto;
+      display: flex;
+      justify-content: space-between;
+
+      .link a {
+        display: block;
+        border: 1px transparent;
+        border-radius: 10px;
+
+        .icon {
+          transition: 0.5s;
+          font-size: 50px;
+          opacity: 1;
+          color: $itemsColor;
+
+          &:hover {
+            transform: translate3d(-7px, -7px, 0);
+            background: $bgGradient;
+            color: $textColor;
+          }
+        }
+      }
+    }
+
+    .copyright {
+      text-align: center;
+      margin: 30px;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,10 @@
+@import './variables';
+@mixin titleElements () {
+  content: '';
+  display: block;
+  height: 3px;
+  background-color: $itemsColor;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
