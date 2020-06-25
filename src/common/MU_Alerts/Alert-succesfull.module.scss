@@ -1,0 +1,15 @@
+.container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  width: 800px;
+  z-index: 10;
+  @media (max-width: 1000px) {
+    width: 500px;
+  }
+  @media (max-width: 600px) {
+    width: 300px;
+  }
+}
+
