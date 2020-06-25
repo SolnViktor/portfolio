@@ -14,25 +14,25 @@ let Footer = () => {
                 </div>
                 <div className={styles.contacts}>
                     <div className={styles.link}>
-                        <a href="https://vk.com/id12147639" target="_blank">
+                        <a href="https://vk.com/id12147639" target="_blank" rel="noopener noreferrer">
                             <FontAwesomeIcon className={styles.icon} icon={faVk}/>
                         </a>
                     </div>
 
                     <div className={styles.link}>
-                        <a href="https://github.com/SolnViktor" target="_blank">
+                        <a href="https://github.com/SolnViktor" target="_blank" rel="noopener noreferrer">
                             <FontAwesomeIcon className={styles.icon} icon={faGithubAlt}/>
                         </a>
                     </div>
 
                     <div className={styles.link}>
-                        <a href="https://account.viber.com/en/account/" target="_blank">
+                        <a href="https://account.viber.com/en/account/" target="_blank" rel="noopener noreferrer">
                             <FontAwesomeIcon className={styles.icon} icon={faViber}/>
                         </a>
                     </div>
 
                     <div className={styles.link}>
-                        <a href="https://t.me/SolnViktor" target="_blank">
+                        <a href="https://t.me/SolnViktor" target="_blank" rel="noopener noreferrer">
                             <FontAwesomeIcon className={styles.icon} icon={faTelegram}/>
                         </a>
                     </div>
