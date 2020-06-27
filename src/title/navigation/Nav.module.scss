@@ -1,0 +1,112 @@
+@import '../../common/styles/variables';
+
+.nav {
+  display: none;
+
+  &_active {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    height: 70vh;
+    font-size: 35px;
+    background-color: rgba(62, 60, 60, 0.9);
+    margin: 100px auto;
+    z-index: 10;
+
+    .nav_item {
+      color: cornflowerblue;
+      text-decoration: none;
+
+      &:hover {
+        color: darksalmon;
+        transition: color 0.3s linear;
+        border-bottom: darksalmon 1px solid;
+        cursor: pointer;
+      }
+      @media (max-width: 500px) {
+          font-size: 30px;
+      }
+    }
+  }
+}
+
+.toggle {
+  width: 30px;
+  padding: 12px 0;
+  position: fixed;
+  top: 60px;
+  right: 80px;
+  border: 0;
+  background: none;
+  cursor: pointer;
+  z-index: 200;
+  outline: none;
+
+
+
+
+  &:active,
+  &:hover {
+    outline: none;
+  }
+
+
+  &.active {
+    .toggle_item {
+      background: none;
+      transition: 0.5s linear;
+
+      &:before {
+        transform-origin: left top;
+        transform: rotate(45deg) translate3d(4px, -5px, 0);
+      }
+
+      &:after {
+        transform-origin: left bottom;
+        transform: rotate(-45deg) translate3d(5px, 3px, 0);
+      }
+    }
+  }
+
+  .toggle_item {
+    width: 100%;
+    display: block;
+    height: 3px;
+    background-color: $itemsColor;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 1;
+    font-size: 0;
+    color: transparent;
+
+    &:before,
+    &:after {
+      content: '';
+      width: 100%;
+      display: block;
+      height: 3px;
+      background-color: $itemsColor;
+      position: absolute;
+      z-index: 1;
+      transition: transform 0.3s linear;
+    }
+
+
+    &:before {
+      top: -10px;
+    }
+
+    &:after {
+      bottom: -10px;
+    }
+  }
+}
+
+

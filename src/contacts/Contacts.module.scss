@@ -1,0 +1,92 @@
+@import '../common/styles/variables';
+@import '../common/styles/mixins';
+
+.contacts {
+  background: url(../accets/debut-dark.png);
+  padding-top: 30px;
+
+  .container {
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+    .title {
+      text-align: center;
+      position: relative;
+
+      &:after,
+      &:before {
+        @include titleElements();
+      }
+
+      &:after {
+        top: 42px;
+        width: 70px;
+      }
+
+      &:before {
+        top: 54px;
+        width: 35px;
+      }
+    }
+
+    .contacts_form {
+      padding: 50px 0;
+      width: 50%;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      & input {
+        width: 100%;
+        padding: 5px;
+        margin-bottom: 15px;
+      }
+
+      & textarea {
+        padding: 5px;
+        width: 100%;
+      }
+
+      .button {
+        margin-top: 50px;
+        padding: 10px 30px;
+        text-decoration: none;
+        font-weight: bold;
+        border: none;
+        transition: linear 0.3s;
+
+        &_default {
+          color: #282c34;
+          background-color: $itemsColor;
+        }
+
+        &_default:hover {
+          color: $textColor;
+          background: $bgGradient;
+        }
+
+        &_disabled {
+          background-color: slategrey;
+          color: #282c34;
+        }
+
+        &_disabled:hover {
+          background-color: slategrey;
+          color: #282c34;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
